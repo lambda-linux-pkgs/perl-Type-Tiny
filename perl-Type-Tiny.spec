@@ -42,12 +42,6 @@ BuildRequires:  perl(JSON::PP)
 # N/A in Fedora: BuildRequires:  perl(match::simple)
 BuildRequires:  perl(Moo)
 # N/A in Fedora: BuildRequires:  perl(Moops)
-BuildRequires:  perl(Moose)
-BuildRequires:  perl(MooseX::Types)
-BuildRequires:  perl(Mouse)
-BuildRequires:  perl(MooseX::Getopt)
-BuildRequires:  perl(MouseX::Types)
-BuildRequires:  perl(MooseX::Types::Common)
 BuildRequires:  perl(Object::Accessor)
 %{?with_reply_plugin:BuildRequires:  perl(Reply::Plugin)}
 # N/A in Fedora: BuildRequires:  perl(Return::Type)
@@ -55,9 +49,9 @@ BuildRequires:  perl(Role::Tiny)
 # N/A in Fedora: BuildRequires:  perl(Sub::Exporter::Lexical)
 # N/A in Fedora: BuildRequires:  perl(Switcheroo)
 %{?with_reply_plugin:BuildRequires:  perl(Term::ANSIColor)}
-BuildRequires:  perl(Test::Warnings)
-# N/A in Fedora: BuildRequires:  perl(Type::Tie)
+BuildRequires:  perl(Type::Tie)
 # N/A in Fedora: BuildRequires:  perl(Validation::Class)
+BuildRequires:  perl(Type::Tiny::XS) >= 0.003
 
 Requires:       perl(:MODULE_COMPAT_%(eval "`%{__perl} -V:version`"; echo $version))
 
