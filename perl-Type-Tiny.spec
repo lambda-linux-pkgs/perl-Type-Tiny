@@ -103,6 +103,12 @@ make test
 %{_mandir}/man3/Test::TypeTiny.3pm*
 
 %changelog
+* Fri Dec 26 2014 Rajiv M Ranganath <rajiv.ranganath@atihita.com> 1.000005-1
+- Adapt for AL/LL
+- Add package support URL
+- Update spec file
+- Import source package FC21/perl-Type-Tiny-1.000005-1.fc21
+
 * Mon Oct 27 2014 Ralf Corsépius <corsepiu@fedoraproject.org> - 1.000005-1
 - Upstream update.
 
