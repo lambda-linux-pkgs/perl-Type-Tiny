@@ -1,6 +1,8 @@
+%define _buildid .1
+
 Name:           perl-Type-Tiny
 Version:        1.000005
-Release:        1%{?dist}
+Release:        1%{?_buildid}%{?dist}
 Summary:        Tiny, yet Moo(se)-compatible type constraint
 License:        GPL+ or Artistic
 Group:          Development/Libraries
