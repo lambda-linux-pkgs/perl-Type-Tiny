@@ -56,6 +56,9 @@ BuildRequires:  perl(Type::Tiny::XS) >= 0.003
 Requires:       perl(:MODULE_COMPAT_%(eval "`%{__perl} -V:version`"; echo $version))
 
 %description
+For package support, please visit
+https://github.com/lambda-linux-pkgs/%{name}/issues
+
 Type::Tiny is a tiny class for creating Moose-like type constraint objects
 which are compatible with Moo, Moose and Mouse.
 
@@ -63,6 +66,9 @@ which are compatible with Moo, Moose and Mouse.
 Summary: Test::TypeTiny module
 
 %description -n perl-Test-TypeTiny
+For package support, please visit
+https://github.com/lambda-linux-pkgs/%{name}/issues
+
 Test::TypeTiny module.
 
 %prep
